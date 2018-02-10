@@ -1,0 +1,28 @@
+/*
+pdc-sock-color: #e2cdfd;
+pdc-main-color: #b775fc;
+*/
+
+@font-face {
+    font-family: uaSquare;
+    src: url(fonts/UASQUARE.TTF);
+}
+
+nav a {
+	font-size: 1.75rem;
+	color: #e2cdfd;
+}
+
+nav a:hover {
+	color: #ffb60c;
+	background-color: #343a40;
+	border-radius: 0.25rem;
+}
+
+.pdc-logo-font {
+	font-family: uaSquare;
+}
+
+.pdc-bg-turquoise {
+	background-color: #40E0D0;
+}
