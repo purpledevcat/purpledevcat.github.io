@@ -4,25 +4,59 @@ pdc-main-color: #b775fc;
 */
 
 @font-face {
-    font-family: uaSquare;
+    font-family: uaSquared;
     src: url(fonts/UASQUARE.TTF);
 }
 
 nav a {
-	font-size: 1.75rem;
-	color: #e2cdfd;
+    font-size: 1.75rem;
+    color: #e2cdfd;
 }
 
-nav a:hover {
-	color: #ffb60c;
-	background-color: #343a40;
-	border-radius: 0.25rem;
+a {
+    color: #b775fc;
+}
+
+a:hover {
+    color: #ffb60c;
+}
+
+.pdc-button {
+    transition: unset;
+}
+
+.pdc-button:hover {
+    color: #ffb60c;
+    background-color: #343a40;
+    border-radius: 0.25rem;
+    transition: unset;
+}
+
+.pdc-content {
+    max-width: 740px;
 }
 
 .pdc-logo-font {
-	font-family: uaSquare;
+    font-family: uaSquared;
 }
 
 .pdc-bg-turquoise {
-	background-color: #40E0D0;
+    background-color: #40E0D0;
 }
+
+.pdc-text-turquoise-dark {
+    color: #30a599;
+}
+
+.pdc-article header {
+    margin-bottom: 2rem;
+}
+
+.pdc-article hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pdc-article p {
+    font-size: 1.4rem;
+    font-family: serif;
