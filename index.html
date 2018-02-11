@@ -1,12 +1,15 @@
 ---
 layout: default
+title: Purple Dev Cat
 ---
 
-<div class="row mb-4">
-    <div class="col-md-12">
-        <span class="font-italic pdc-text-turquoise-dark">08/02/2017</span>
-        <h2>Placeholder Header</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary pdc-button" href="/" role="button">Read more »</a></p>
-    </div>
-</div>
+{% for post in site.posts %}
+    <article class="row mb-4">
+        <div class="col-md-12">
+            <span class="font-italic pdc-text-turquoise-dark">{{ post.date | date: '%B %d, %Y' }}</span><br>
+            <h2>{{ post.title }}</h2>
+            {{ post.excerpt }}
+            <p><a class="btn btn-secondary pdc-button" href="{{ site.baseurl }}{{ post.url }}" role="button">Read more »</a></p>
+        </div>
+    </article>
+{% endfor %}
