@@ -1,4 +1,4 @@
-# [Purple Dev Cat](https://purpledevcat.com)
+# Purple Dev Cat
 
 ## Local setup
 
