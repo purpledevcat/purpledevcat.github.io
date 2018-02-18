@@ -16,7 +16,8 @@ layout: default
     <h5>Share this post:</h5>
 
     <ul>
-        <li class="twitter"><a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title | url_escape }}" title="Share on Twitter">Twitter</a></li>
+        <li><a href="https://twitter.com/intent/tweet?url={{ site.url | cgi_escape  }}{{ page.url | cgi_escape }}&text={{ page.title | cgi_escape }}" title="Share on Twitter">Twitter</a></li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&src=sdkpreparse" title="Share on Facebook">Facebook</a></li>
     </ul>
 </aside>
 
