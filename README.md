@@ -2,7 +2,7 @@
 
 ## Local setup
 
-Check that you have Ruby v2.1.0 or higher.
+Check that you have Ruby v2.1.0 or higher. We recommend using [RVM](https://rvm.io/rvm/install) to install Ruby if you don't have it yet.
 
 `ruby --version`
 
