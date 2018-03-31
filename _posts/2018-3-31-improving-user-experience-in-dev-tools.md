@@ -13,7 +13,13 @@ For most non-trivial tools, you will most likely need input from your users. Thi
 
 Before coding anything up for a new feature, ask yourself 'If I were using this tool to work on my own project, how would I prefer to use it? What would be the cleanest and simplest way to specify what I want this to do?' Take your time coming up with an answer, trying out differnet options. Once you've come up with a couple of alternatives, pick the one you think you would like best, maybe even ask for a second opinion from a colleague, and then figure out how you will write the code that accepts the input in your selected format. This way, you are much more likely to end up with a tool that is pleasant and intuitive to use.
 
-As a simple example, imagine a script that can be triggered with some optional parameters. There's a good chance that if you do not consider design first (or at all), you end up with a script invocation that looks something like this: `my_script true 5`. However, if you consider how you want to use this script before hand, you might think it would be intuitive to specify the optional parameters with something like the following: `my_script --with-option-a --repetitions=5`.
+As a simple example, imagine a script that can be triggered with some optional parameters. There's a good chance that if you do not consider design first (or at all), you end up with a script invocation that looks something like the following.
+
+`> my_script true 5`
+
+However, if you consider how you want to use this script before hand, you might think it would be intuitive to specify the optional parameters with something like the following.
+
+`> my_script --with-option-a --parameter-b=5`.
 
 ## 2. Write good documentation.
 When you need help understanding how to use a bash command, you bring up the manual pages, where you know you will find all the information you need. When you need help understanding what some Spring method does, you take a look at the Spring javadocs, because you know you will find an explanation. Similarily, your colleagues, or any other users of your tool, should have a reliable source of information when they need help properly using and configuring it.
