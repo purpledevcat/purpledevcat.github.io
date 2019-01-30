@@ -22,12 +22,13 @@ a:hover {
 }
 
 .pdc-button {
+    color: #edb73b;
     transition: unset;
 }
 
 .pdc-button:hover {
-    color: #ffb60c;
-    background-color: #343a40;
+    color: #e2cdfd;
+    background-color: #6c757d;
     border-radius: 0.25rem;
     transition: unset;
 }
@@ -38,6 +39,10 @@ a:hover {
 
 .pdc-logo-font {
     font-family: uaSquared;
+}
+
+.pdc-bg-purple {
+    background-color: #9c8bb2;
 }
 
 .pdc-bg-turquoise {
