@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Applying Visual GUI Testing to Computer Game Testing
+title: Applying Visual GUI Testing to Computer Game Testing (MSc research proposal)
 author: Maria Camenzuli
 ---
 
