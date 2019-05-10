@@ -6,6 +6,7 @@ title: Purple Dev Cat
 <article class="row mb-4">
     <div class="col-md-12">
         <h2 class="text-center pdc-logo-font font-weight-bold">Goop</h2>
+        <span class="font-italic pdc-text-turquoise-dark">Unity, C#</span><br>
         <div class="embed-responsive embed-responsive-16by9 mb-4">
             <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/2CixmmoyAFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -20,11 +21,20 @@ title: Purple Dev Cat
 <article class="row mb-4">
     <div class="col-md-12">
         <h2 class="text-center pdc-logo-font font-weight-bold">Game of Life Pulsar Pattern Visualization Rendered Using DirectX 11</h2>
+        <span class="font-italic pdc-text-turquoise-dark">DirectX 11, C++</span><br>
         <div class="embed-responsive embed-responsive-16by9 mb-4">
             <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/eShIiXH5C9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="pdc-article-text mb-4">
-            This is a simple 3D scene rendered using DirectX 11 visualizing a pulsar pattern in a Game of Life simulation. Though the scene itself is quite simple, alot of work went into setting it up. The main aims of the project were to setup a basic 3D rendering framework with an API that would allow a scene to be defined with the ease of creating one in something like Unity, and where the rendering code was decoupled from the simulation code. Models are loaded from standard .obj files.
+            This is a simple 3D scene rendered using DirectX 11, visualizing a pulsar pattern in a Game of Life simulation. The main aims of the project were to setup a basic 3D rendering framework with an API that would allow a scene to be defined with the ease of creating one in something like Unity, and where the rendering code was decoupled from the simulation code. The rendering framework has the following features:
+            <ul>
+                <li>Scene graph</li>
+                <li>Model loading (from <code>.obj</code> files)</li>
+                <li>Omni-directional shadow mapping</li>
+                <li>Fixed update time step, variable rendering</li>
+                <li>Free-look camera</li>
+                <li>Runtime configuration</li>
+            </ul>
         </div>
         <p><a class="btn btn-dark pdc-button pdc-logo-font" href="https://github.com/maria-camenzuli/game-of-life-pulsar-visualization-dx11" role="button">Project on Github »</a></p>
     </div>
